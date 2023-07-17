@@ -434,6 +434,10 @@ video {
   display: none;
 }
 
+html {
+  font-family: Whyte, system-ui, sans-serif;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -534,15 +538,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.font-primary {
+  font-family: Whyte;
 }
 
-.font-bold {
-  font-weight: 700;
-}
+@font-face {
+  font-family: Whyte;
 
-.underline {
-  text-decoration-line: underline;
+  src: url("../assets/fonts/ABCWhyte-Book.woff2") format("woff2"),
+        url("../assets/fonts/ABCWhyte-Book.woff") format("woff");
 }
