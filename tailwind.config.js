@@ -16,6 +16,9 @@ module.exports = {
             fontFamily: {
                 primary: "Whyte",
             },
+            fontSize: {
+                xs: "0.625rem",
+            },
         },
     },
     plugins: [],

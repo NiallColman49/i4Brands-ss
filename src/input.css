@@ -6,10 +6,14 @@
     font-family: Whyte;
     src: url("../assets/fonts/ABCWhyte-Book.woff2") format("woff2"),
         url("../assets/fonts/ABCWhyte-Book.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
 }
 
-@layer base {
-    html {
-        font-family: Whyte, system-ui, sans-serif;
-    }
+@font-face {
+    font-family: Whyte;
+    src: url("../assets/fonts/ABCWhyte-Medium.woff2") format("woff2"),
+        url("../assets/fonts/ABCWhyte-Medium.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
 }
