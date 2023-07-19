@@ -2,18 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Book */
 @font-face {
-    font-family: Whyte;
-    src: url("../assets/fonts/ABCWhyte-Book.woff2") format("woff2"),
-        url("../assets/fonts/ABCWhyte-Book.woff") format("woff");
-    font-weight: 300;
+    font-family: "Whyte";
+    src: url("../assets/fonts/Whyte-Book.woff2") format("woff2"),
+        url("../assets/fonts/Whyte-Book.woff") format("woff");
+    font-weight: normal;
     font-style: normal;
 }
 
+/* Medium */
 @font-face {
-    font-family: Whyte;
-    src: url("../assets/fonts/ABCWhyte-Medium.woff2") format("woff2"),
-        url("../assets/fonts/ABCWhyte-Medium.woff") format("woff");
-    font-weight: 600;
+    font-family: "Whyte";
+    src: url("../assets/fonts/Whyte-Medium.woff2") format("woff2"),
+        url("../assets/fonts/Whyte-Medium.woff") format("woff");
+    font-weight: 500;
     font-style: normal;
+}
+
+.outlined-text-white {
+    -webkit-text-stroke: 1px white;
+}
+
+@media (min-width: 1024px) {
+    .outlined-text-pink {
+        -webkit-text-stroke: 2px white;
+    }
+}
+
+.outlined-text-pink {
+    -webkit-text-stroke: 1px #c74993;
+}
+
+@media (min-width: 1024px) {
+    .outlined-text-pink {
+        -webkit-text-stroke: 2px #c74993;
+    }
 }
