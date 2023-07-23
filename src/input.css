@@ -43,3 +43,15 @@
 .btn-outline {
     @apply cursor-pointer flex items-center justify-center uppercase tracking-widest border-2 border-i4-pink text-i4-pink rounded-full px-10 pt-2 pb-1 hover:bg-i4-pink hover:text-white w-full sm:w-max;
 }
+
+.slick-dots {
+    @apply flex flex-wrap items-center;
+}
+
+.slick-dots li button {
+    @apply border border-white rounded-full mx-1 h-3 w-3 text-[0];
+}
+
+.slick-dots .slick-active button {
+    @apply bg-white;
+}
