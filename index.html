@@ -47,7 +47,7 @@
                 </h1>
 
                 <h2
-                    class="text-white text-4xl leading-tight lg:text-[7.5rem] lg:leading-[8.75rem] tracking-wide lg:tracking-normal text-center font-medium pt-10 lg:pt-20 pb-6 lg:pb-10 text-outline"
+                    class="text-white text-[2.5rem] leading-tight lg:text-[7.5rem] lg:leading-[8.75rem] tracking-wide lg:tracking-normal text-center font-medium pt-10 lg:pt-20 pb-6 lg:pb-10 text-outline"
                 >
                     Your
                     <span class="outlined-text-pink text-black">Brand</span>
@@ -127,7 +127,7 @@
             </div>
         </section>
 
-        <section class="py-5 lg:py-10">
+        <section class="py-5 lg:py-10 relative">
             <div class="container flex flex-wrap justify-between">
                 <div class="w-full lg:w-5/12 flex flex-col justify-between">
                     <p class="text-2xl text-white">
@@ -205,9 +205,14 @@
                     </button>
                 </div>
             </div>
+            <img
+                src="./assets/images/left-hand-smaller.svg"
+                alt=""
+                class="absolute -z-10 left-0 bottom-0 w-full lg:w-2/5"
+            />
         </section>
 
-        <section class="pt-5 lg:pt-0">
+        <section class="pt-5 lg:pt-0 relative">
             <div class="container">
                 <div class="w-full lg:w-10/12">
                     <h2 class="text-[40px] text-white">Our Capabilities</h2>
@@ -224,6 +229,11 @@
                     </p>
                 </div>
             </div>
+            <img
+                src="./assets/images/right-hand-image.svg"
+                alt=""
+                class="absolute -z-10 right-0 top-0"
+            />
         </section>
 
         <section class="py-10 lg:py-20">
@@ -342,7 +352,7 @@
                     class="text-white uppercase text-sm font-light tracking-widest block"
                     >our work</span
                 >
-                <div class="px-0 w-[140%] sm:w-[135%] pt-10">
+                <div class="px-0 w-[140%] sm:w-[135%] pt-5 lg:pt-10">
                     <div class="js-work-slider -ml-2">
                         <img
                             src="./assets/images/malmaison-exterior.jpg"
@@ -375,7 +385,54 @@
             </div>
         </section>
 
-        <footer class="container"></footer>
+        <footer class="py-10 lg:py-20 flex justify-end relative">
+            <div class="container flex flex-wrap">
+                <div class="text-white w-full lg:w-1/3">
+                    <a href="mailto:hello@i4brands.co.uk" class="block"
+                        >hello@i4brands.co.uk</a
+                    >
+                    <a href="mailto:operations@i4brands.co.uk" class="block"
+                        >operations@i4brands.co.uk</a
+                    >
+                    <a href="tel:07506731023" class="block">07506 731 023</a>
+                </div>
+
+                <div class="text-white w-full lg:w-1/3 pt-5 lg:pt-0">
+                    Kyte Yorkshire Business Centre,<br />
+                    Great North Road,<br />
+                    Pontefract,<br />
+                    WF8 3HR
+                </div>
+
+                <div
+                    class="text-white flex gap-5 lg:justify-end w-full lg:w-1/3 pt-5 lg:pt-0"
+                >
+                    <a
+                        href="https://www.linkedin.com/company/i4brands"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                    <a
+                        href="https://www.instagram.com/i4brands_brandsolutions"
+                        target="_blank"
+                        >Instagram</a
+                    >
+                    <a href="https://www.facebook.com" target="_blank"
+                        >Facebook</a
+                    >
+                </div>
+            </div>
+            <img
+                src="./assets/images/footer-background.svg"
+                alt="footer background"
+                class="absolute bottom-0 left-0 right-0 hidden lg:block -z-10"
+            />
+            <img
+                src="./assets/images/footer-background-mobile.svg"
+                alt="footer background"
+                class="absolute bottom-0 left-0 right-0 lg:hidden -z-10"
+            />
+        </footer>
         <script
             type="text/javascript"
             src="//code.jquery.com/jquery-1.11.0.min.js"
