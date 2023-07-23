@@ -20,6 +20,9 @@ module.exports = {
             fontSize: {
                 xs: "0.625rem",
             },
+            colors: {
+                "i4-pink": "#c74993",
+            },
         },
     },
     plugins: [],
