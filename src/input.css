@@ -55,3 +55,14 @@
 .slick-dots .slick-active button {
     @apply bg-white;
 }
+
+.panel {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.2s ease-out, opacity 2s;
+}
+
+.panel.active {
+    opacity: 1;
+}
