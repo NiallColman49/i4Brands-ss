@@ -66,3 +66,12 @@
 .panel.active {
     opacity: 1;
 }
+
+#changeText {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.hide {
+    opacity: 0 !important;
+}
