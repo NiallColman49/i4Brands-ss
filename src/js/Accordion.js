@@ -1,7 +1,8 @@
 let accordions = [...document.querySelectorAll(".acc-list")];
 
 accordions.forEach((acc, idx) => {
-    acc.addEventListener("click", () => {
+    acc.addEventListener("click", (e) => {
+        e.preventDefault();
         let panel = acc.nextElementSibling;
         console.log(panel);
         if (panel.style.maxHeight) {

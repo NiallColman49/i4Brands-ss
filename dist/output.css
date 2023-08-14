@@ -599,32 +599,13 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .-ml-2 {
   margin-left: -0.5rem;
-}
-
-.-mt-12 {
-  margin-top: -3rem;
-}
-
-.-mt-48 {
-  margin-top: -12rem;
-}
-
-.-mt-\[16\.5rem\] {
-  margin-top: -16.5rem;
-}
-
-.-mt-\[20\.5rem\] {
-  margin-top: -20.5rem;
-}
-
-.-mt-\[25rem\] {
-  margin-top: -25rem;
-}
-
-.-mt-\[7\.5rem\] {
-  margin-top: -7.5rem;
 }
 
 .mb-2 {
@@ -657,6 +638,10 @@ video {
 
 .h-64 {
   height: 16rem;
+}
+
+.h-\[29rem\] {
+  height: 29rem;
 }
 
 .h-full {
@@ -813,6 +798,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -843,10 +832,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .text-left {
@@ -895,6 +880,11 @@ video {
 
 .text-xs {
   font-size: 0.625rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1060,17 +1050,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.panel {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 0.2s ease-out, opacity 2s;
-}
-
-.panel.active {
-  opacity: 1;
-}
-
 #changeText {
   opacity: 1;
   transition: opacity 0.5s;
@@ -1078,6 +1057,31 @@ video {
 
 .hide {
   opacity: 0 !important;
+}
+
+.panel.modal {
+  /* ... (other styles) */
+  position: absolute;
+  top: 0;
+  /* Adjust this based on your layout */
+  right: 0;
+  /* Adjust this based on your layout */
+  display: none;
+}
+
+.panel.modal.active {
+  display: block;
+}
+
+.mob-panel {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.2s ease-out, opacity 2s;
+}
+
+.mob-panel.active {
+  opacity: 1;
 }
 
 @media (min-width: 640px) {
@@ -1190,6 +1194,10 @@ video {
 
   .lg\:pl-10 {
     padding-left: 2.5rem;
+  }
+
+  .lg\:pl-24 {
+    padding-left: 6rem;
   }
 
   .lg\:pt-0 {

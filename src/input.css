@@ -56,17 +56,6 @@
     @apply bg-white;
 }
 
-.panel {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: max-height 0.2s ease-out, opacity 2s;
-}
-
-.panel.active {
-    opacity: 1;
-}
-
 #changeText {
     opacity: 1;
     transition: opacity 0.5s;
@@ -74,4 +63,26 @@
 
 .hide {
     opacity: 0 !important;
+}
+
+.panel.modal {
+    /* ... (other styles) */
+    position: absolute;
+    top: 0; /* Adjust this based on your layout */
+    right: 0; /* Adjust this based on your layout */
+    display: none;
+}
+.panel.modal.active {
+    display: block;
+}
+
+.mob-panel {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.2s ease-out, opacity 2s;
+}
+
+.mob-panel.active {
+    opacity: 1;
 }
