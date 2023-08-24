@@ -86,3 +86,7 @@
 .mob-panel.active {
     opacity: 1;
 }
+
+.panel {
+    transition: max-height 0.2s ease-out;
+}
