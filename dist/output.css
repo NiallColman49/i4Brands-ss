@@ -1112,6 +1112,10 @@ video {
     display: block;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:h-64 {
     height: 16rem;
   }
