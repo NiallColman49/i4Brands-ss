@@ -19,8 +19,8 @@
             alt="footer background"
             class="absolute bottom-0 right-0 block md:hidden -z-10"
         />
-        <header class="container py-5 lg:py-10">
-            <div class="flex justify-between">
+        <header class="container py-5 lg:py-10 relative">
+            <div class="flex justify-between items-center lg:items-start">
                 <a href="./">
                     <img
                         src="./assets/images/i4Brands-logo.svg"
@@ -28,8 +28,65 @@
                         class="w-56 lg:w-40"
                     />
                 </a>
+
+                <div
+                    id="myNav"
+                    class="overlay text-white"
+                    style="max-height: 0%"
+                >
+                    <div class="container">
+                        <!-- Overlay content -->
+                        <div
+                            class="overlay-content text-white pt-6 pb-10 space-y-6"
+                        >
+                            <a
+                                href="./about.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >01</span
+                                >About</a
+                            >
+                            <a
+                                href="./services.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >02</span
+                                >Services</a
+                            >
+                            <a
+                                href="./projects.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4 flex justify-between"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >03</span
+                                >Projects
+                                <span class="additional-items text-i4-pink"
+                                    >+</span
+                                ></a
+                            >
+                            <a
+                                href="./contact.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >04</span
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <span class="menu-toggle"
+                    ><img
+                        src="./assets/images/plus-menu.svg"
+                        alt="Plus"
+                        class="w-12 h-12 menu-toggle cursor-pointer"
+                /></span>
+
                 <span
-                    class="text-white uppercase text-xs text-right lg:w-2/12 pl-14 lg:pl-0"
+                    class="text-white uppercase text-xs text-right lg:w-2/12 pl-14 lg:pl-0 hidden lg:block"
                     >i4Brands would love to hear from you.
                     <span class="cursor-pointer underline">
                         <a href="mailto:hello@i4brands.co.uk"
@@ -117,5 +174,6 @@
                 >
             </div>
         </section>
+        <script type="text/javascript" src="./src/js/MenuToggle.js"></script>
     </body>
 </html>
