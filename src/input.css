@@ -90,3 +90,50 @@
 .panel {
     transition: max-height 0.2s ease-out;
 }
+
+.menu-toggle.clicked {
+    transform: rotate(45deg);
+}
+
+/* menu styling */
+.overlay {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 128px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-y: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.overlay-content {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.overlay a {
+    text-decoration: none;
+    font-size: 36px;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #c74993;
+}
+
+@media screen and (max-width: 1023px) {
+    .overlay {
+        height: 100vh;
+    }
+}
+
+.no-scroll {
+    overflow: hidden;
+}
