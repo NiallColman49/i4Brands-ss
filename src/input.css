@@ -136,3 +136,8 @@
 .no-scroll {
     overflow: hidden;
 }
+
+.hover-container .hover-title:hover {
+    transition: opacity 0.3s;
+    opacity: 1;
+}
