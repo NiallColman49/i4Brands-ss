@@ -141,3 +141,8 @@
     transition: opacity 0.3s;
     opacity: 1;
 }
+
+.mobile-hover {
+    transition: opacity 0.3s;
+    opacity: 1;
+}
