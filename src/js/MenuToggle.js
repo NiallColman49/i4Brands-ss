@@ -11,3 +11,13 @@ menuToggle.addEventListener("click", (e) => {
         menuStyles.style.maxHeight = "0%";
     }
 });
+
+const additionalItems = document.querySelector(".additional-items");
+
+additionalItems.addEventListener("click", (e) => {
+    console.log("clicked");
+    const icon = e.currentTarget;
+    const hiddenItems = document.querySelector(".hidden-menu-item");
+    console.log(hiddenItems);
+    hiddenItems.classList.toggle("hidden");
+});
