@@ -684,6 +684,10 @@ video {
   height: 29rem;
 }
 
+.h-\[595px\] {
+  height: 595px;
+}
+
 .h-full {
   height: 100%;
 }
@@ -884,6 +888,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -978,6 +987,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -1012,11 +1026,6 @@ video {
 
 .text-xs {
   font-size: 0.625rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
