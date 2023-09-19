@@ -652,10 +652,6 @@ video {
   margin-top: 10rem;
 }
 
-.mt-56 {
-  margin-top: 14rem;
-}
-
 .block {
   display: block;
 }
@@ -688,12 +684,12 @@ video {
   height: 29rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[595px\] {
   height: 595px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .max-h-0 {
@@ -892,11 +888,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pb-0 {
   padding-bottom: 0px;
 }
@@ -965,8 +956,12 @@ video {
   padding-top: 1.5rem;
 }
 
-.pb-3 {
-  padding-bottom: 0.75rem;
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .text-left {
@@ -993,6 +988,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -1029,11 +1029,6 @@ video {
 
 .text-xs {
   font-size: 0.625rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -1106,6 +1101,14 @@ video {
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 /* Book */
@@ -1304,6 +1307,11 @@ video {
 .mobile-hover {
   transition: opacity 0.3s;
   opacity: 1;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
 }
 
 @media (min-width: 640px) {

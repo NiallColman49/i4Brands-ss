@@ -146,3 +146,8 @@
     transition: opacity 0.3s;
     opacity: 1;
 }
+
+.content {
+    display: none;
+    overflow: hidden;
+}
