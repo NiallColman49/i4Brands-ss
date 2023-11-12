@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Street Furniture</title>
+        <link href="./dist/output.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <script
+            src="https://kit.fontawesome.com/b838f5a310.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body class="bg-black font-primary">
+        <header class="container py-5 lg:py-10 relative">
+            <div class="flex justify-between items-center lg:items-start">
+                <a href="./">
+                    <img
+                        src="./assets/images/i4Brands-logo.svg"
+                        alt="i4Brands logo"
+                        class="w-48 lg:w-40"
+                    />
+                </a>
+
+                <div
+                    id="myNav"
+                    class="overlay text-white"
+                    style="max-height: 0%"
+                >
+                    <div class="container">
+                        <!-- Overlay content -->
+                        <div
+                            class="overlay-content text-white pt-6 pb-10 space-y-6"
+                        >
+                            <a
+                                href="./about.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >01</span
+                                >About</a
+                            >
+                            <div
+                                class="flex justify-between border-white border-b lg:w-1/4 items-center"
+                            >
+                                <a href="./services.html" class="relative pl-5"
+                                    ><span
+                                        class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                        >02</span
+                                    >Services
+                                </a>
+                                <span
+                                    class="additional-items text-i4-pink text-4xl"
+                                    >+</span
+                                >
+                            </div>
+
+                            <span class="hidden-menu-item hidden">
+                                <a
+                                    href="./electrical.html"
+                                    class="relative pl-5 w-full border-white border-b lg:w-1/4 block"
+                                    >Electrical
+                                </a>
+
+                                <a
+                                    href="./branding.html"
+                                    class="relative pl-5 w-full border-white border-b lg:w-1/4 block pt-4 pb-2"
+                                    >Branding
+                                </a>
+
+                                <a
+                                    href="./facilities.html"
+                                    class="relative pl-5 w-full border-white border-b lg:w-1/4 block pt-4 pb-2"
+                                    >Facilties
+                                </a>
+
+                                <a
+                                    href="./workplace.html"
+                                    class="relative pl-5 w-full border-white border-b lg:w-1/4 block pt-4 pb-2"
+                                    >FF&E
+                                </a>
+
+                                <a
+                                    href="./street-furniture.html"
+                                    class="relative pl-5 w-full border-white border-b lg:w-1/4 block pt-4 pb-2"
+                                    >Street Furniture
+                                </a>
+                            </span>
+
+                            <a
+                                href="./projects.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4 flex justify-between"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >03</span
+                                >Projects
+                            </a>
+                            <a
+                                href="./contact.html"
+                                class="relative pl-5 border-white border-b lg:w-1/4"
+                                ><span
+                                    class="absolute top-0 left-0 text-[10px] text-i4-pink"
+                                    >04</span
+                                >Contact</a
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <span class="menu-toggle"
+                    ><img
+                        src="./assets/images/plus-menu.svg"
+                        alt="Plus"
+                        class="w-12 h-12 menu-toggle cursor-pointer"
+                /></span>
+
+                <span
+                    class="text-white uppercase text-xs text-right lg:w-2/12 pl-14 lg:pl-0 hidden lg:block"
+                    >i4Brands would love to hear from you.
+                    <span class="cursor-pointer underline">
+                        <a href="mailto:hello@i4brands.co.uk"
+                            >Get in touch now</a
+                        ></span
+                    ></span
+                >
+            </div>
+        </header>
+
+        <section class="relative flex justify-center items-center">
+            <img
+                src="./assets/images/street-furniture/hero.jpeg"
+                class="object-cover object-right w-full h-full min-h-[566px] max-h-[848px]"
+            />
+            <div
+                class="bg-black opacity-[0.5] absolute top-0 left-0 h-full w-full z-1"
+            ></div>
+
+            <div
+                class="absolute flex flex-col z-10 transform top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full lg:w-2/3 px-4"
+            >
+                <h2
+                    class="text-4xl lg:text-6xl font-bold text-white lg:leading-tight text-center tracking-wide"
+                >
+                    Street Furniture and Metal Fabrication
+                </h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="flex flex-wrap">
+                <div class="w-full">
+                    <div class="container">
+                        <p
+                            class="text-white w-full py-14 lg:py-20 lg:px-10 text-xl"
+                        >
+                            <span
+                                class="text-4xl lg:text-[50px] lg:leading-tight"
+                            >
+                                From Design, to Development all the way through
+                                to Delivery. With years of experience in the
+                                industry, i4brands are recognised for high
+                                quality products through our specialist
+                                partners. Our range of street furniture enhances
+                                any scheme or project.
+                            </span>
+                            <br /><br />
+                            Our extensive street furniture products include
+                            anti-ram raid security bollards, Street signage,
+                            external litter bins, internal recycling units,
+                            seating & benches, planters, tree protection,
+                            canopies, smoking point and bus stop shelters.
+                            <br /><br />
+                            Our range of street furniture products are available
+                            in a variety of styles and finishes. From classic
+                            and traditional to contemporary designs, we have a
+                            huge choice available. They suit any application and
+                            integrate into the surrounding environment. Our
+                            furniture provides both functional and aesthetic
+                            benefits. Our high quality street furniture products
+                            are made with both function and style in mind.
+                            Whichever style you choose, it is always fit for
+                            purpose. Our extensive street furniture range
+                            provides architects and specifiers with both
+                            inspiration and a wide choice. We can adapt items to
+                            meet bespoke requirements. Items can also be
+                            customised to include logos or names.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-10 lg:pb-10">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div
+                        class="w-full lg:w-1/2 text-white lg:pr-10 order-2 lg:order-1 pt-10 lg:pt-0"
+                    >
+                        <h3 class="font-bold text-3xl underline">
+                            Street Furniture Supplier
+                        </h3>
+                        <p class="lg:text-xl pt-6">
+                            Here at i4Brands, we understand the challenges you
+                            face when choosing and installing street furniture
+                            for outdoor spaces. Project briefs require stylish,
+                            hard-wearing street furniture that is
+                            cost-effective. And usually, it was needed
+                            yesterday.
+                            <br /><br />
+                            We know that time is money, so forget the delays,
+                            excuses etc, we guarantee high-performance,
+                            including quick quotations, durable products,
+                            offering the best value, and an all-round service
+                            that we are happy to stand behind, that you will
+                            want to come back for more. We are on a mission to
+                            ensure that waiting for the street furniture
+                            products you want, becomes a thing of the past.
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-1/2 order-1 lg:order-2">
+                        <img
+                            src="./assets/images/street-furniture/hero-1.jpeg"
+                            alt="Furniture"
+                            class="object-cover object-center w-full"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-10 lg:pb-20 lg:pt-20">
+            <div class="container">
+                <div class="flex flex-wrap">
+                    <div
+                        class="w-full lg:w-1/2 text-white lg:pl-10 order-2 pt-10 lg:pt-0"
+                    >
+                        <h3 class="font-bold text-3xl underline">
+                            Our Street Furniture Range
+                        </h3>
+                        <p class="lg:text-xl pt-6">
+                            Our vast range of products include, stainless steel
+                            bollards, steel bollards, cycle stands, cycle
+                            shelters, litter bins, seats, benches, balustrades,
+                            staircases and much more. We know that the street
+                            furniture elements are often the last thing to be
+                            considered on a large project. We always aim to try
+                            and offer a quick turn around for all your street
+                            furniture requirements.
+                        </p>
+
+                        <div class="lg:text-xl pt-6">
+                            <ul class="list-disc pt-2">
+                                <li>Retail Parks and Supermarkets</li>
+                                <li>Leisure complex’s and Sporting stadiums</li>
+                                <li>Petrol Stations and Forecourts</li>
+                                <li>Schools, College’s and Universities</li>
+                                <li>Hospitality venues</li>
+                                <li>Electric vehicle charging protection</li>
+                                <li>Industrial and Commercial Projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-1/2 order-1">
+                        <img
+                            src="./assets/images/street-furniture/hero02.jpeg"
+                            alt="Furniture"
+                            class="object-cover object-center w-full"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-5 lg:pb-10 overflow-x-hidden">
+            <div class="container">
+                <span
+                    class="text-white uppercase text-sm font-light tracking-widest block"
+                    >Examples of our Street Furniture and Metal
+                    Babrication</span
+                >
+                <div class="px-0 w-[140%] sm:w-[135%] pt-5 lg:pt-10">
+                    <div class="js-work-slider -ml-2">
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/Tables-and-chairs.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Street Furniture</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/shelters.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Shelters</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/bins.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Litter Bins</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/staircases.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Staircases</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/balustrades.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Ballustrades</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/bicycle-stands.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Bicycle Stands</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/bollards-and-barriers.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Bollards and Barriers</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/external-stairs-and-railings.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >external stairs and railings</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/bus-stop-shelters.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Bus stop shelters</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/seating-and-planters.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Seating and planters</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/street-furniture.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Street furniture</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/external-vending-canopies.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >External vending canopies</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/vending-stations.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Vending stations</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/benches.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Benches</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/ev-charging-point-protection.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >EV charging point protection</span
+                            >
+                        </div>
+                        <div class="w-full h-64 sm:h-72 md:h-64 lg:h-80 px-2">
+                            <img
+                                src="./assets/images/street-furniture/stainless-steel-bollards.jpg"
+                                alt="cleaning"
+                                class="object-center object-cover rounded-3xl h-[245px] sm:h-[400px]"
+                            />
+                            <span class="text-white block mt-4 text-xl"
+                                >Stainless steel bollards</span
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="js-work-slider-dots pt-5"></div>
+            </div>
+        </section>
+
+        <section class="py-10 lg:py-20 mx-auto">
+            <div class="container">
+                <p class="text-center text-white text-2xl lg:text-4xl">
+                    Get in touch today to discuss any requirements you may have
+                </p>
+                <div class="w-full flex flex-wrap justify-center gap-5 mt-10">
+                    <a href="mailto:hello@i4brands.co.uk" class="btn-outline">
+                        Email us now
+                    </a>
+
+                    <a href="tel:07506731023" class="btn-outline">
+                        Telephone
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-10 lg:py-20 flex justify-end relative">
+            <div class="container flex flex-wrap">
+                <div class="text-white w-full lg:w-1/3">
+                    <a href="mailto:hello@i4brands.co.uk" class="block"
+                        >hello@i4brands.co.uk</a
+                    >
+                    <a href="mailto:operations@i4brands.co.uk" class="block"
+                        >operations@i4brands.co.uk</a
+                    >
+                    <a href="tel:07506731023" class="block">07506 731 023</a>
+                </div>
+
+                <div class="text-white w-full lg:w-1/3 pt-5 lg:pt-0">
+                    Kyte Yorkshire Business Centre,<br />
+                    Great North Road,<br />
+                    Pontefract,<br />
+                    WF8 3HR
+                </div>
+
+                <div
+                    class="text-white flex gap-5 lg:justify-end w-full lg:w-1/3 pt-5 lg:pt-0"
+                >
+                    <a
+                        href="https://www.linkedin.com/company/i4brands"
+                        target="_blank"
+                        >LinkedIn</a
+                    >
+                    <a
+                        href="https://www.instagram.com/i4brands_brandsolutions"
+                        target="_blank"
+                        >Instagram</a
+                    >
+                    <a href="https://www.facebook.com/i4brands" target="_blank"
+                        >Facebook</a
+                    >
+                </div>
+            </div>
+            <img
+                src="./assets/images/footer-background.svg"
+                alt="footer background"
+                class="absolute bottom-0 left-0 right-0 hidden lg:block -z-10"
+            />
+            <img
+                src="./assets/images/footer-background-mobile.svg"
+                alt="footer background"
+                class="absolute bottom-0 left-0 right-0 lg:hidden -z-10"
+            />
+        </footer>
+
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="./src/js/ShowcaseSlider.js"
+        ></script>
+        <script type="text/javascript" src="./src/js/NeonSlider.js"></script>
+        <script type="text/javascript" src="./src/js/WorkSlider.js"></script>
+        <script
+            type="text/javascript"
+            src="./src/js/WorkplaceAccordion.js"
+        ></script>
+        <script type="text/javascript" src="./src/js/MenuToggle.js"></script>
+        <script type="text/javascript" src="./src/js/TouchHover.js"></script>
+        <script
+            type="text/javascript"
+            src="./src/js/BrandingAccordion.js"
+        ></script>
+    </body>
+</html>
